@@ -1,0 +1,87 @@
+/* IDs */
+#info {
+  text-align: center;
+}
+
+#email {
+  display: inline;
+}
+
+#linkedIn {
+  display: inline;
+}
+
+#linkedIn :hover {
+  color: grey;
+}
+
+#gitHub {
+  display: inline;
+
+}
+
+#gitHub :hover {
+  color: grey;
+}
+
+#navigationBar {
+  background-color: black;
+  top: 0px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+#navigationBar a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  margin: px;
+
+}
+
+#navigationBar :hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+/* Elements */
+h2 {
+  padding-left: 10px;
+  text-decoration: underline;
+}
+
+h3 {
+  padding-left: 10px;
+  padding-bottom: 0px;
+}
+
+h4 {
+  padding-left: 10px;
+  line-height: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  padding: 10px;
+  max-width: 850px;
+}
+
+li {
+  max-width: 850px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+
+    h3 {
+      word-wrap: break-word;
+
+	}
+}
